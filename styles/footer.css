@@ -1,0 +1,40 @@
+.footer__wrapper {
+  padding: 50px 0 40px;
+  border-top: 2px solid #F8F8F8;
+
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  gap: 40px 126px;
+  grid-template-areas:
+    "logo socials contacts"
+    "copyright . developers";
+}
+
+.logo-footer {
+  grid-area: logo;
+}
+
+.footer-socials {
+  grid-area: socials;
+  display: flex;
+  gap: 24px;
+  justify-self: end;
+}
+
+.footer-contacts {
+  grid-area: contacts;
+}
+
+.footer-copyright {
+  grid-area: copyright;
+}
+
+.footer-dev {
+  grid-area: developers;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

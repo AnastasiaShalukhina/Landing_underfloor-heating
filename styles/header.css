@@ -1,0 +1,26 @@
+.header__wrapper {
+  padding: 18px 0;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.header__button {
+  background: transparent;
+  padding: 18px 40px;
+  border: 1px solid #232020;
+  border-radius: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #232020;
+}
